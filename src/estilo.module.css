@@ -1,0 +1,40 @@
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0B090A;
+}
+.calc{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #161A1D;
+    width: 601px;
+    height: 751px;
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0004;
+    width: 82px;
+    height: 82px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.num:active{
+    transition: 0ms;
+    scale: 0.9;
+    box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.587),
+    0 0 10px rgba(255, 255, 255, 0.594),
+    0 0 10px rgba(255, 254, 254, 0.582),
+    0 0 10px rgba(245, 245, 245, 0.612),
+    0 0 100px rgba(255, 254, 254, 0.5);
+}
+/*
+ #4CC9F0 ,#4895EF ,#3A0CA3,*/
